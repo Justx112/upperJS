@@ -30,8 +30,6 @@ const renderProducts = (productList = [{}]) => {
     productList.forEach(element => {
       target.insertAdjacentHTML("afterbegin", getProductHTMLString(element?.title, element?.price))
   });
-
-
 }
 
 // Все аргументы отсутсвуют

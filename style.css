@@ -1,0 +1,76 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonAccept {
+    box-sizing: border-box;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 0px;
+    border: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font: 13px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00bfff;
+    background-image: -moz-linear-gradient(top, #00bfff 0%, #174959 100%);
+    background-image: -webkit-linear-gradient(top, #00bfff 0%, #174959 100%);
+    background-image: -o-linear-gradient(top, #00bfff 0%, #174959 100%);
+    background-image: -ms-linear-gradient(top, #00bfff 0%, #174959 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#174959', endColorstr='#174959', GradientType=0);
+    background-image: linear-gradient(top, #00bfff 0%, #174959 100%);
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+    -webkit-transition: color 0s linear;
+    -moz-transition: color 0s linear;
+    -o-transition: color 0s linear;
+    transition: color 0s linear;
+}
+
+.buttonReset {
+    box-sizing: border-box;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+    padding: 11px 32px;
+    border: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font: 13px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #de3364;
+    background-image: -moz-linear-gradient(top, #de3364 0%, #dba4a4 100%);
+    background-image: -webkit-linear-gradient(top, #de3364 0%, #dba4a4 100%);
+    background-image: -o-linear-gradient(top, #de3364 0%, #dba4a4 100%);
+    background-image: -ms-linear-gradient(top, #de3364 0%, #dba4a4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dba4a4', endColorstr='#dba4a4', GradientType=0);
+    background-image: linear-gradient(top, #de3364 0%, #dba4a4 100%);
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+    -webkit-transition: color 0s linear;
+    -moz-transition: color 0s linear;
+    -o-transition: color 0s linear;
+    transition: color 0s linear;
+}
+
+.boxButton
+{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textArea {
+    width: 25%;
+}
